@@ -1,67 +1,50 @@
-<div align="center">
+# Amit Kumar
+**Business Intelligence · Analytics · Data Quality**
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&pause=1000&color=3DDC84&center=true&vCenter=true&width=600&height=60&lines=Hi%2C+I'm+Amit+Kumar;Business+Intelligence+%26+Analytics;answers%2C+not+exports." alt="Amit Kumar" />
+I build reporting, analytical tools and repeatable workflows that help teams understand their data and act on it. My experience spans financial-market analytics at Deutsche Börse Group and programme analytics at Arcadis.
 
-<br>
+Based in Frankfurt am Main, Germany.
 
-`Frankfurt am Main, Germany`  ·  `Business Analytics @ Deutsche Börse Group`
+[Portfolio](https://amitkumaranalytics.com) · [LinkedIn](https://www.linkedin.com/in/amit1820) · [Contact](https://amitkumaranalytics.com/#contact)
 
-</div>
+## Selected projects
 
-<br>
+### GridShift — Electricity Cost Lab
+Could the same operation have cost less at a different time? Compare historical operating schedules while holding energy consumption constant.
 
-```bash
-amit@frankfurt:~$ whoami
-```
-```yaml
-name:        Amit Kumar
-role:        Business Intelligence & Analytics
-current:     Business Analytics @ Eurex Clearing (Deutsche Börse Group)
-building:    decision-ready dashboards, automation & analytics tools
-philosophy:  measure the right thing · keep the logic auditable
-             · be honest about what the numbers can't say
-learning:    quantitative finance & data engineering
-interests:   [ financial markets, algorithmic trading, sustainability, AI ]
-```
+- **Public demo:** interactive cost calculations on a validated historical price snapshot.
+- **Full local platform:** API ingestion, PostgreSQL, dbt tests, Prefect scheduling and publication that preserves the previous validated dataset when a refresh fails.
+- **Stack:** Python · SQL · PostgreSQL · dbt · Prefect · Streamlit.
 
-<br>
+[Launch demo](https://energy-market-data-platform-nwtmpvcf6yxbaxyyswx4gh.streamlit.app/) · [Read the case study](https://amitkumaranalytics.com/projects/gridshift)
 
-<div align="center">
+Source is private; a walkthrough is available on request.
 
-### stack
+### Interactive BI Analytics Dashboard
+Explore revenue, profit, products and customer segments through filters, period comparisons and CSV exports. Uses reproducible synthetic business data.
 
-![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3DDC84)
-![Power BI](https://img.shields.io/badge/Power_BI-0d1117?style=for-the-badge&logo=powerbi&logoColor=3DDC84)
-![SQL](https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=3DDC84)
-![pandas](https://img.shields.io/badge/pandas-0d1117?style=for-the-badge&logo=pandas&logoColor=3DDC84)
-![NumPy](https://img.shields.io/badge/NumPy-0d1117?style=for-the-badge&logo=numpy&logoColor=3DDC84)
-![Databricks](https://img.shields.io/badge/Databricks-0d1117?style=for-the-badge&logo=databricks&logoColor=3DDC84)
-![Microsoft Fabric](https://img.shields.io/badge/Fabric-0d1117?style=for-the-badge&logo=microsoft&logoColor=3DDC84)
-![R](https://img.shields.io/badge/R-0d1117?style=for-the-badge&logo=r&logoColor=3DDC84)
-![Streamlit](https://img.shields.io/badge/Streamlit-0d1117?style=for-the-badge&logo=streamlit&logoColor=3DDC84)
-![Plotly](https://img.shields.io/badge/Plotly-0d1117?style=for-the-badge&logo=plotly&logoColor=3DDC84)
+**Stack:** Python · pandas · Streamlit · Plotly
 
-</div>
+[Explore the code](https://github.com/amit1820/interactive-bi-analytics-app) · [Read the case study](https://amitkumaranalytics.com/projects/interactive-analytics-dashboard)
 
-<br>
+### Portfolio Risk and Return
+Analyse five ETFs and compare 20,000 sampled long-only portfolios using historical return, volatility, correlation and Sharpe ratios. The results illustrate trade-offs rather than recommend an allocation.
 
-```bash
-amit@frankfurt:~$ cat ./portfolio.md
-```
-> A portfolio exploring the intersection of **data analytics and financial markets** —
-> BI dashboards, end-to-end ETL pipelines, portfolio risk analysis, and data-quality
-> workflows. Pinned repositories below.
+**Stack:** Python · pandas · NumPy · matplotlib · yfinance
 
-<br>
+[Explore the code](https://github.com/amit1820/data-driven-portfolio-analysis) · [Read the case study](https://amitkumaranalytics.com/projects/portfolio-risk-return-diversification)
 
-<div align="center">
+## Research
+My master's research examines equity-market reactions to climate-policy reversals across the US, Europe and Asia. The event study covers 929 firms, with explicit attention to trading calendars, model assumptions and sensitivity checks. Thesis grade: **1.0**.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-3DDC84?style=for-the-badge&logo=vercel&logoColor=0d1117)](https://amitkumaranalytics.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=3DDC84)](https://linkedin.com/in/amit1820)
-[![Email](https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=3DDC84)](mailto:amit.kumar.analytics.eu@gmail.com)
+[Research and methodology](https://amitkumaranalytics.com/#research)
 
-<br>
+## Tools I work with
 
-`amit@frankfurt:~$ _`
+| Focus | Tools |
+|---|---|
+| BI and reporting | Power BI, DAX, SQL, Power Query, Databricks, Microsoft Fabric |
+| Analysis and automation | Python, pandas, NumPy, R, Power Automate |
+| Independent project stack | PostgreSQL, dbt, Prefect, Streamlit, GitHub Actions |
 
-</div>
+I am interested in BI, data analytics and data operations opportunities where clear definitions, reliable data and useful reporting matter.
