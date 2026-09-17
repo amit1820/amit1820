@@ -20,8 +20,16 @@ Could the same operation have cost less at a different time? Compare historical 
 
 Source is private; a walkthrough is available on request.
 
-### Interactive BI Analytics Dashboard
-Explore revenue, profit, products and customer segments through filters, period comparisons and CSV exports. Uses reproducible synthetic business data.
+### Revenue Atlas — Revenue & Customer Retention Analytics
+What is driving recurring revenue—and which customers stay? Explore a linked subscription dataset covering **600 fictional accounts**, with explicit metric definitions and traceable invoices.
+
+- **Executive overview:** monthly recurring revenue (MRR), annualized run rate, active customers and net revenue retention.
+- **Revenue bridge:** reconcile opening and closing MRR through new business, expansion, contraction and churn.
+- **Retention cohorts:** compare customer and revenue retention at the same customer age; unobserved months stay blank.
+- **Account explorer:** search customers, inspect monthly balances and trace results to invoices.
+- **Validation:** automated checks for billing relationships, cancellation timing, revenue reconciliation and app interactions.
+
+Reproducible synthetic data, not real business results. Filtered CSV exports and linked source-table downloads support further analysis.
 
 **Stack:** Python · pandas · Streamlit · Plotly
 
